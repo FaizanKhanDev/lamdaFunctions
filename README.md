@@ -1,0 +1,1 @@
+<h1>JavaScript Lamba Function </h1>
