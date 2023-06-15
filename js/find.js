@@ -79,3 +79,12 @@ console.log(myFoundResults)
 
 const myResults = addressInfo.regions.length
 console.log(myResults)
+
+
+const findProvinces = (elem) => {
+    return elem.name !== "Sindhi" && elem.code !== "SI"
+}
+
+const foundedProvinces = addressInfo.provinces.find(findProvinces)
+console.log(foundedProvinces, addressInfo.provinces.length)
+console.log(addressInfo.provinces)
