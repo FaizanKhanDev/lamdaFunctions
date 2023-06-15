@@ -1,5 +1,5 @@
 const obj = {
-    'Student': [
+    Student: [
         {
             "name": "Raj",
             "Age": "12",
@@ -79,6 +79,7 @@ const addressInfos = {
     ],
     provinces: [
         { name: "Sindhi", code: "SI" },
+        { name: "Punjab", code: "SI" },
         { name: "Punjab", code: "PU" },
         { name: "Khyber", code: "KY" },
         { name: "balochistan", code: "BA" }
@@ -96,7 +97,7 @@ const addressInfos = {
     selectedProvince: "SI",
 
 }
-const filterjustOneProvinces = addressInfos.provinces.filter(province => province.name !== "Sindhi")
+const filterjustOneProvinces = addressInfos.provinces.filter(province => province.name !== "Sindhi" && province.code !== "SI")
 console.log("=========filterjustOneProvinces=========", filterjustOneProvinces)
 
 const filterProvincess = addressInfos.provinces.filter(function (el) {
