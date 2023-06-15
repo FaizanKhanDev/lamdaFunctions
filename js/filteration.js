@@ -70,3 +70,7 @@ const secondNewArray = faizan.filter(function (f) {
     return f.length === 6
 })
 console.log("========secondNewArray======================", secondNewArray, "========secondNewArray======================",)
+
+
+
+
