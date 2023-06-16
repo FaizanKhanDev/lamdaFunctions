@@ -49,3 +49,6 @@ console.log(addressInfosFindIndex)
 const myWebsiteIndex = "https://faizankhandev.netlify.app/"
 const websiteResultOfIndex = addressInfosFindIndex.bussinessWebsiteName === myWebsiteIndex
 console.log(websiteResultOfIndex)
+const SingleCity = "karachi"
+const getCityIndex = addressInfosFindIndex.cities.findIndex(city => city.name === SingleCity)
+console.log("==============getCityIndex", getCityIndex)

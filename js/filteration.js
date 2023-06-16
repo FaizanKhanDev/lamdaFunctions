@@ -28,11 +28,12 @@ const obj = {
 };
 
 
-const newArray = obj.Student.filter(function (el) {
-    return el.Age <= 15 &&
-        el.RollNumber <= 200 &&
-        el.Marks >= 80
-});
+// const newArray = obj.Student.filter(function (el) {
+//     return el.Age <= 15 &&
+//         el.RollNumber <= 200 &&
+//         el.Marks >= 80
+// });
+
 const againNewArray = obj.Student.filter(function (el) {
     return el.RollNumber >= 100 &&
         el.Marks >= 99
