@@ -35,10 +35,16 @@ addressInfosFindIndex.regions.forEach(region => {
     console.log(`Name: ${region.name}`)
 });
 
-console.log("cities")
-addressInfosFindIndex.cities.forEach(cities => {
-    console.log(`name:${cities.name}`)
-})
+// addressInfosFindIndex.cities.forEach((cities) => {
+//     addressInfosFindIndex.cities.push("faizan")
+// })
 
+const addNewCity = {
+    name: "Landhi",
+    code: "LHI",
+}
+console.log("cities")
+addressInfosFindIndex.cities.push(addNewCity)
+console.log("=====addNewCity=======", addressInfosFindIndex)
 const newCity = addressInfosFindIndex.cities.filter(city => city.name === "karachi")
 console.log(newCity)
