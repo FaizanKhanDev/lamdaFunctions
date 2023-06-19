@@ -1,4 +1,5 @@
 <h1>JavaScript Lamba Function </h1>
+<h1>Documention</h1>
 <h6>filter() </h6>
 <p>
     The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
